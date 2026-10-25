@@ -1,5 +1,5 @@
-name: CI workflow
 
+<<<<<<< HEAD
 on:
   push:
     branches: [ "main" ]
@@ -26,3 +26,5 @@ jobs:
 
       - name: Run unit tests with nose
         run: nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
+=======
+>>>>>>> dff08a2af7d69eb4d49ead4d1ec666ee6178765d
